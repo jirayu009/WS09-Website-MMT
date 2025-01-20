@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>สาขาวิชาเทคโนโลยีมัลติมีเดีย</title>
+  <style>
+    body 
+    {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+    }
+    header {
+      background: #a64b2a;
+      color: white;
+      padding: 10px 20px;
+      text-align: left; 
+      padding: 20px;
+    }
+    header img {
+      height: 70px;
+      vertical-align: middle;
+      margin-right: 10px;
+    }
+    nav {
+      display: flex;
+      justify-content: center;
+      background: #d87d4a;
+      padding: 10px;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      padding: 10px 20px;
+      font-weight: bold;
+    }
+    nav a:hover {
+      background: #a64b2a;
+      border-radius: 5px;
+    }
+    .main-banner {
+      position: relative;
+      text-align: center;
+      color: white;
+    }
+    .main-banner img {
+      width: 100%;
+      height: auto;
+    }
+    .main-banner .banner-text {
+      position: absolute;
+      top: 30%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      background: rgba(0, 0, 0, 0.5);
+      padding: 20px;
+      border-radius: 10px;
+    }
+    .main-banner .banner-text h1 {
+      font-size: 2rem;
+      margin: 0;
+    }
+    .content {
+      padding: 20px;
+    }
+    .content h2 {
+      margin-top: 0;
+      color: #a64b2a;
+    }
+    .content p {
+      margin-bottom: 15px;
+    }
+    .content img {
+      width: 100%;
+      height: auto;
+      margin: 10px 0;
+    }
+    .footer {
+      background: #a64b2a;
+      color: white;
+      text-align: center;
+      padding: 10px;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h2> <img src="MMT.png" alt="โลโก้">
+   <a href="#">หน้าหลัก</a>
+    <a href="#">หลักสูตร</a>
+    <a href="#">อาจารย์</a>
+    <a href="#">กิจกรรมของสาขา</a> </h2>
+</header>
+
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ใส่ข้อความบนรูปภาพ</title>
+  <style>
+    .image-container {
+      position: relative; /* ทำให้สามารถวางซ้อนข้อความบนรูปภาพได้ */
+      width: 100%; /* ปรับขนาดรูปภาพ */
+      max-width: 3000px; /* กำหนดความกว้างสูงสุด */
+    }
+    .image-container img {
+      width: 100%; /* รูปภาพเต็มความกว้างของ container */
+      height: auto; /* ให้ความสูงปรับตามรูปภาพ */
+    }
+    .image-container .text-overlay {
+      position: absolute; /* ทำให้ข้อความซ้อนบนรูปภาพ */
+      top: 50%; /* ตำแหน่งข้อความอยู่กึ่งกลางแนวตั้ง */
+      left: 50%; /* ตำแหน่งข้อความอยู่กึ่งกลางแนวนอน */
+      transform: translate(-50%, -50%); /* ปรับข้อความให้อยู่กึ่งกลางจริง ๆ */
+      color: white; /* สีข้อความ */
+      font-size: 24px; /* ขนาดข้อความ */
+      font-weight: bold; /* ตัวหนา */
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* เงาข้อความ */
+      text-align:left;
+    }
+  </style>
+</head>
+<body>
+  <div class="image-container">
+    <img src="bgggggg.jpg" alt="ตัวอย่างรูปภาพ">
+    <div class="text-overlay">
+      <h2><p>สาขาวิชาเทคโนโลยีมัลติมีเดีย </p>
+      คณะวิทยาศาสตร์และเทคโนโลยี มหาวิทยาลัยเทคโนโลยีราชมงคลสุวรรณภูมิ ศูนย์หันตรา</h2>
+    </div>
+  </div>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>รูปภาพด้านขวา</title>
+  <style>
+    .content {
+      display: flex;
+      align-items: center;
+      gap: 20px; /* ระยะห่างระหว่างข้อความและรูปภาพ */
+    }
+    .content img {
+      max-width: 40%; /* ขนาดรูปภาพไม่เกิน 40% ของความกว้างหน้า */
+      height: auto;
+      border-radius: 10px; /* เพิ่มมุมโค้งให้รูป */
+    }
+    .text {
+      flex: 1; /* ให้ข้อความขยายเต็มพื้นที่ที่เหลือ */
+    }
+  </style>
+</head>
+<body>
+  <div class="content">
+    <div class="text">
+      <h1>สาขาวิชาเทคโนโลยีมัลติมีเดีย</h1>
+      <p>
+        ชื่อปริญญาและสาขาวิชาชื่อเต็ม (ไทย) </p>
+        <p>เทคโนโลยีบัณฑิต (เทคโนโลยีมัลติมีเดีย)ชื่อย่อ (ไทย) </p>
+        <p>ทล.บ.(เทคโนโลยีมัลติมีเดีย)ชื่อเต็ม (อังกฤษ) </p>
+        <p> Bachelor of Technology (Multimedia Technology)ชื่อย่อ </p>
+          <p>  (อังกฤษ) B.Tech. (Multimedia Technology)
+      </p>
+    </div>
+    <img src="tno.jpg" alt="ตัวอย่างมัลติมีเดีย">
+  </div>
+  <div class="footer">
+    © 2025 สาขาวิชาเทคโนโลยีมัลติมีเดีย มหาวิทยาลัยเทคโนโลยีราชมงคลสุวรรณภูมิ
+  </div>
+</body>
+</html>
+
+</body>
+</html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home</title>
+  
+</body>
+</html>
